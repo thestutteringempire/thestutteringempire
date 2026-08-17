@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="reload-guard.js"></script>
+<audio id="bg-audio" preload="auto"></audio>
+<script src="audio-controller.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — The Stuttering Empire</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .faq-answer{
+    display:none;
+    padding:12px 4px 39px;
+  }
+
+  .faq-item.open .faq-answer{
+    display:block;
+  }
+
+  .faq-answer p{
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size:15px;
+    line-height:1.6;
+    margin:0;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <img class="topbar-bg" src="images/site-flag.jpg" alt="" aria-hidden="true">
+    <div class="header-text">
+      <h1 class="title">The Stuttering Empire</h1>
+      <div class="subtitle">Active for <span id="active-days">0</span> days</div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="news.html">News</a>
+    <a href="history.html">History</a>
+    <a href="constitution.html">Constitution</a>
+    <a href="solutions.html">Our Solutions</a>
+    <a href="members.html">Members & Ranks</a>
+    <a href="contributors.html">Notable Contributors</a>
+    <a href="legends.html">Legends List</a>
+    <a href="allies-enemies.html">Allies & Enemies</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="how-to-rank-up.html">How to Rank Up</a>
+    <a href="rules.html">Rules</a>
+    <a href="faq.html" class="active">FAQ</a>
+    <a href="live-coaching.html">Live Coaching</a>
+    <a href="https://disboard.org/server/1170558348828094585" target="_blank" rel="noopener">Discord</a>
+    <a href="https://www.youtube.com/@reverseyourstuttering" target="_blank" rel="noopener">Youtube</a>
+    <a href="https://site-se.github.io/" target="_blank" rel="noopener">Old Site</a>
+    <a href="links.html">Links</a>
+    <a href="archives.html">Archives</a>
+    <a href="flag.html">Flag</a>
+  </nav>
+
+  <main>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you need to stutter to join the server?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>No</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Are you able to go from 10% fluency to 99% fluency?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Yes</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is the goal to get to 100% fluency?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>No because that will lead to perfectionism which will lead to anxiety. You can be 100% fluent for 30 seconds to a minute or even longer but don't try to be 100% fluent for the next 24 hours it's not possible even non-stutterers mess up all the time.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can you reduce anxiety significantly and other problems addressed in 'Our Solutions?'</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Yes</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What is the best technique you found to stop stuttering?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Mouth mechanics the technique that I made in 2021</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What are the best things to do for anxiety/negative emotions?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>There are many good ones. Acceptance/exposure therapy/cognitive behavioral therapy, avoidance, changing desires, distraction</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Does it matter whether anxiety is based on the future and negative emotions is based on the past, do the techniques change?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>The short answer is no, consistency of the techniques remain the same. The long answer is sort of but that is addressed under 'Our Solutions'. Long story short avoidance is hard to do if an outcome already took place but avoidance can be used to change your belief system around from the past which can reduce negative emotions such as trauma so the meaning of 'avoidance' changes but still remains there which means avoidance is an effective way of stopping not only fear but also negative emotions.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long would it take before I go from severe to mild?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Depending on how motivated you are and how consistent your work ethic is. If you go all out you can reach fluency much faster than others who are only passively training their speech</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is stuttering environmentally learned or genetic?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Stuttering is not genetic at all it is entirely unintentionally and accidentally learned from the environment. This does not mean that you pick up stuttering from someone else not at all the case. It's just that as you naturally learned to speak you did it wrong this is naturally what happens. The same goes for handwriting if we assume people who take the same amount of time learning how to handwrite some people will just so happen to handwrite exceptionally well compared to others who do not handwrite well. This is all a learned process that takes place</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Why isn't stuttering genetic?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>A speech technique cannot change your long-standing genetic makeup. If stuttering was genetic it would be more consistent irregardless of what technique you are using and there's nothing you would be able to do about it. You would have to be forced that you stutter for life</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is epigenetics relevant when it comes to stuttering?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>No because epigenetics pales in comparison to your long standing genes. Epigenetics is just gene regulation via the environment so it's weak compared to your genetics</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How long did it take you to get fluent?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>I would go months of training my speech impediment but then also optimize the approach of mouth mechanics and then I would go months of inactivity focusing on other things so it's hard to give a timeframe but I did save people a lot of time by developing a coherent stuttering theory by means of trial-and-error so other people don't need to go through that work. What people would need to do is to understand the theory and to be able to apply the information in the real world</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What convinced you that you could beat stuttering?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>I was talking to myself in the car and I was saying sentences that would be close to impossible for me to say fluently entirely fluently that's what convinced me that stuttering could be stopped and that it was a matter of figuring out the root cause of the problem (which is impatience/mistiming).</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is exhalation a cause of stuttering is this something you need to fix?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>No exhalation is a byproduct of stuttering which means that if you address the root cause of the problem then the messed up exhalation is automatically fixed. If you don't have trouble with exhalation doing anything else then it isn't all of a sudden then problem when it comes to speaking despite stuttering. Do not focus on byproducts and focus on the root cause of the problem (which is impatience/mistiming).</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>So what is impatience/mistiming?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>When the mouth doesn't have enough time to reach the right position and the brain is trying to say the word outloud thus messing up its own expectations of when the word gets said. The brain would need to learn that by pausing/waiting for a fraction of a second longer it buys the mouth enough time to reach the right mouth position before the intent to say the word outloud where the forceful exhalation happens after that achieving synchronization (where the mouth position moves first, then the exhalation happens where they both are happening at the same time). Order matters that's why I use the computer algorithm example when it comes to speaking fluently. You need to do things in the right order to be able to speak fluently.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What is the best thing to do for OCD?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Not taking the physical or mental action that the brain is asking you to take. The brain wants you to react to avoid a bad outcome so if you do act then that's going to fuel the cycle of the OCD because you're trying to do avoidance instead of acceptance.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>So you're saying the best method for OCD is acceptance and not avoidance?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Yes, unlike fear and negative emotions where both are crucial, for OCD acceptance is much more effective. Do not fall for the temptation of obeying the request the brain is asking you to do to try to avoid a bad outcome.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>The best method to beating addiction?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>By not desiring it anymore (variables for not wanting to continue). Perhaps someone is afraid of a consequence so that makes them stop going after the addiction. Another way is acceptance where you do not take the action meaning you do not fall for the temptation and instead go through the withdrawal symptoms forcing the brain to adapt which is difficult to do but more than effective.</p>
+          </div>
+        </div>
+
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What is the best way to counteract social anxiety?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Change your belief system around that people aren't out to get you. Most people aren't even focused on you they will look at you for a few seconds and that's about it. They're not going to care about you despite you being so focused on others. That's why if you go outside you're going to feel that strong sense of threat because you view people negatively instead of positively. Most of the time social anxiety is an irrational fear.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How to fix a lack of empathy/How to reduce your ego? (answer is the same for both)</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>You need to view people positively that's how you start caring about them. You change your belief system through positive reinforcement so you think about the same positive experiences from the past over and over to the point where you stop seeing people as a threat anymore and you start to care about them more. This is the same answer if you want to reduce your ego because you no longer believe people are bad so you don't care about going after them as a defensive measure.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How do you get more motivation/be more driven?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>You need a strong desire and the belief that you can succeed in that desire to feel more driven. The stronger the desire the more motivation you are going to have and that means that the reward needs to be valuable enough to go after. If the reward isn't that important then you won't be as driven to take action in the environment. The words 'reward' and 'goal' are the same and can be used interchangeably.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How to avoid procrastination?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Procrastination happens when you're not afraid of consequences for not doing it but then last minute you start feeling the consequences. So that's when motivation levels increase that then leads to action. The more afraid you are of consequences the better it is since the more motivated you become to trying to avoid the outcome. This can be more than effective for school or going after a goal that you want to go after but aren't feeling driven enough.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is it true that a stutterer's brain thinks too fast?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>It seems that way because the brain gets ahead of itself to the point where instructions are getting short-circuited and that first instruction is the mouth positioning needs to be there first before trying to say the word outloud which is the vocalization aspect of it.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is hard blocking and vocalized stuttering the same speech impediment?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Yes hard blocking is on the severe end of the dichotomy and vocalized stuttering is on the mild end. The problem is that hard blocking is on the more severe end so they would need to be even more patient when speaking compared to someone who has a vocalized stutter but the vocalized stutter is a lot more noticeable and embarrassing. The solution that being mouth mechanics is the same for both instantiations of the same speech impediment that we call stuttering.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How to stop ADHD?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>You need to have a strong interest in doing something that's what ensures having a strong attention span and having strong focus on whatever it is that you are doing. I used to have a professor who had bad ADHD and ironically he was focused the entire time when teaching the class because he was enjoying it. If someone makes you read a textbook start to finish in Physics chances are you would start feeling ADHD in the first 10 seconds because you would be doing it without trying to achieve a goal of some sort and you would get distracted easily. It's just not something that you would find enjoyable in the moment even if someone has a strong interest in physics.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is there limitations to exposure therapy?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Yes especially when it comes to extreme examples because by that point you would lack the desire of doing the exposure therapy to begin with. If you are afraid of oceans and you want to overcome the fear of a shark attacking you chances are you're not going to jump into shark-infested waters to try to overcome the fear by that point it wouldn't be seen as worth it anymore because there's more risk.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What is an underrated and unknown way of doing exposure therapy?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Mental exposure therapy, namely thinking about negative thoughts over and over again intentionally to the point where the brain normalizes these outcomes thus if the happened in the real world you wouldn't care as much. This is what makes Stoicism useful and is what cognitive behavioral therapy CBT based off of. Most people would not do this because it's difficult to voluntarily think about bad things usually people want to avoid bad thoughts but this is one of the more aggressive methods on how to increase mental strength relatively fast. This is because you go into the fire instead of running away from the fire so you do acceptance instead of avoidance.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is intelligence genetic or is it learned?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>It is genetic you cannot do anything to increase or decrease your intelligence. People have various different definitions of what intelligence even entails. I define it as the rate of speed at which you are able to process information which is why people are able to process information at a faster rate compared to others (although a part of this also has to do with new subject knowledge carry-over where it's easier for some people to pick up a new topic because they have a background in another relevant topic - which is how to learn faster without it being related to intelligence but more-so due to your knowledge base). But asides from that, this is how intelligence is defined how fast you pick something and how fast you are able to analyze and gather insights to try to solve a problem while avoiding the correlation vs. causation problem.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>What is the correlation vs. causation problem?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>It is where you mistake a correlation variable as the root cause to a problem which is what a lot of researchers fall into the trap of doing. They gather a lot of data and gather insights but based off of a false premise from the beginning leading to a faulty way of thinking and a false conclusion.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Some people say stuttering is caused by a brain defect. Is this true?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>No it is not true. The brain is going to produce inherently defective outputs but the underlying mechanism is not defective. This is part of the learning process where you have to mess up over and over until progress is made. If there was a defect in the brain causing stuttering then it would be close to impossible to have a speech technique override such a physical defect.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Do you always need conscious effort to speak fluently?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>No because when you are first learning something you are always going to need conscious effort no matter what. If you are studying Calculus for the first few days, weeks or months you are going to need conscious effort but then after enough experience it starts becoming more natural where you do not need to exert as much conscious effort. The same goes for any other learned process such as stuttering. You first need to learn the technique of choice and then you master it to the point where it becomes subconscious and gets easy for you to do.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>I practice my speech but get nowhere. Why does this happen and how can I prevent this from happening?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>This is because you are using the wrong stuttering theory. By the word 'wrong' I mean a stuttering theory that fails to address the root cause of the problem meaning that the root cause being argued for is a correlation. When you play around with correlations you're always going to have the problem because the root cause isn't being addressed. You need to focus on the root cause of the problem that's the argument I have been making as to why I have the correct stuttering theory because it addresses the cause of the problem and not a correlative variable. By using the correct stuttering theory you have to exert that much less energy later on because you're already doing it right that's the point of optimization to make things easier later on. This is how to make progress without wasting time.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Are you saving us time with having to figure things out when it comes to stuttering?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>Yes because needing to do trial-and-error over and over requires a lot of time and to figure things out along the way and to gain insights as a result of the experimentation. The reason I was able to do it was because I stutter alone so I had a lot of opportunities to analyze myself in real time while trying out different things before reaching various conclusions when it comes to stuttering both as a speech impediment and as a project.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Does fear cause stuttering?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer">
+              <p>No because of two main reasons:</p>
+            <p>1. I stutter alone even in the complete absence of fear which means that no matter what the situation is I'm going to have the susceptibility of stuttering</p>
+            <p>2. I would have University presentations where fear made me so self-conscious that it made me careful every time I spoke and that made me go 100% fluent during the presentations. This means that a high amount of fear can make you instead of break you but this is of course not always the case it depends on the variables that are playing out in your brain and the individual in question</p>
+            <p>Therefore, fear heavily correlates with that of stuttering because there are going to be stutterers who only stutter in the presence of fear but that does not mean that fear is directly causing the problem. Rather, the cause is impatience/mistiming where various processes are being short-circuited corresponding to speech production such as the mouth movement and forward airflow that has to follow (which then you get a synchronization effect because the mouth movement comes first and the exhalation follows meaning that one comes before the other and then they happen at the same time at execution time).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    The Stuttering Empire
+    <div class="copyright">&copy; <span id="copyright-year">2025</span> The Stuttering Empire. All rights reserved.</div>
+  </footer>
+
+  <script src="nav-guard.js"></script>
+  <script src="active-days.js"></script>
+  <script src="faq-accordion.js"></script>
+</body>
+</html>
